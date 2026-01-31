@@ -1,5 +1,6 @@
-﻿Here’s the improved `README.md` file, incorporating the new content while maintaining the existing structure and information:
-
+API REST .NET 8 pour la gestion de produits : CRUD via Entity Framework Core sur SQL Server, modèle Product et migrations incluses. Documentation Swagger et configuration CORS pour intégration avec une application Angular (http://localhost:4200). Extensible, déployable et prête pour tests.
+
+
 # ProductApplication
 
 ## Description du projet
@@ -124,4 +125,5 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 - Erreur de connexion SQL : vérifiez la chaîne de connexion, que SQL Server est démarré et que l'utilisateur a les droits.
 - `dotnet ef` introuvable : installez `dotnet-ef` ou utilisez les outils EF de Visual Studio.
+
 - Conflits de migration : utilisez `dotnet ef migrations remove` pour annuler une migration non souhaitée ou résolvez les conflits manuellement.
